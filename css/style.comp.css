@@ -292,4 +292,6 @@ footer {
     width: 25px; }
   .carousel-control-next-icon, .carousel-control-prev-icon {
     width: 30px;
-    height: 50px; } }
+    height: 50px; }
+  .copywrite {
+    font-size: 11px; } }
