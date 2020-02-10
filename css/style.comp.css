@@ -6,6 +6,9 @@
   html {
     font-size: 75%; } }
 
+body {
+  overflow-x: hidden; }
+
 .investments {
   background: url(../img/helped.png) no-repeat center center;
   background-size: cover; }
@@ -225,6 +228,9 @@ footer {
   margin-right: unset;
   margin-left: unset; }
 
+.bgr-position {
+  background-position: center center !important; }
+
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 1.5rem; }
 
@@ -293,5 +299,7 @@ footer {
   .carousel-control-next-icon, .carousel-control-prev-icon {
     width: 30px;
     height: 50px; }
+  .bgr-position {
+    background-position: unset !important; }
   .copywrite {
     font-size: 11px; } }

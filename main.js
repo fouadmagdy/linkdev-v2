@@ -57,7 +57,7 @@ $(document).ready(function () {
         console.log(element)
 
         const markUp = `
-                    <div class="card mt-2 text-light" style="width: 18rem;background: url(${element.imgUrl}) no-repeat center center;">
+                    <div class="card mt-2 text-light bgr-position" style="width: 18rem;background: url(${element.imgUrl}) no-repeat;">
                         <div class="card-body">
                             <h5 class="card-title">${element.datenumber}</h5>
                             <h5 class="card-title">${element.month}</h5>
