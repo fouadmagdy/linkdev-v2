@@ -1,0 +1,269 @@
+.investments {
+    background: url(../img/helped.png) no-repeat center center;
+    background-size: cover;
+}
+
+$bluemain-color: #008795;
+
+nav {
+  background-color: #f2f0f0 !important;
+}
+
+header {
+  .main__header {
+    &-auth {
+      &-loginsbtns {
+        a:first-of-type {
+          border-right: 1px solid;
+          padding-right: 0.5rem;
+          color: $bluemain-color;
+          text-decoration: none;
+        }
+        a:last-child {
+          padding-left: 0.5rem;
+          color: $bluemain-color;
+          text-decoration: none;
+        }
+      }
+
+      &-langbtns {
+        a:nth-of-type(1) {
+          padding: 0.2rem 0.3rem;
+          background-color: $bluemain-color;
+          color: #fff;
+          border-radius: 50%;
+        }
+        a:nth-of-type(2) {
+          border-right: 1px solid #8d8d8d;
+          padding-right: 0.5rem;
+          color: $bluemain-color;
+        }
+        a:nth-of-type(3) {
+          padding-left: 0.5rem;
+          font-size: 1.5rem;
+          color: $bluemain-color;
+        }
+        a:nth-of-type(4) {
+          color: $bluemain-color;
+        }
+      }
+    }
+  }
+
+  .introduction {
+    .carousel-item {
+      button:first-of-type {
+        background: transparent !important;
+        border: 1px solid #fff;
+      }
+      button:last-of-type {
+        background: #8dc043;
+        border: 1px solid #8dc043;
+      }
+    }
+
+    &__carousel--h2 {
+      font-size: 1.9rem;
+    }
+
+    &__carousel-caption {
+      &--h2 {
+        font-size: 1.6rem;
+        font-family: optima;
+      }
+
+      &--span {
+        color: #c2f83f;
+        font-size: 2.5rem;
+      }
+      &--span-2 {
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
+
+main {
+  .helped {
+    font-family: optima;
+
+    &__title {
+      h3 {
+        color: $bluemain-color;
+        font-size: 2.2rem;
+      }
+      p {
+        color: #61aeb9;
+        font-size: 1.3rem;
+      }
+    }
+
+    &-carusal {
+      .slick-caption {
+        color: #fff;
+
+        p:nth-of-type(1) {
+          font-size: 3rem;
+          font-weight: bold;
+        }
+        p:nth-of-type(2) {
+          font-size: 1.5rem;
+        }
+        p:nth-of-type(3) {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+
+  .investments {
+    background: url(../img/investments.png) no-repeat center center;
+    background-size: cover;
+    height: 90vh;
+    font-family: optima;
+
+    &__title {
+      h3 {
+        font-size: 2.5rem;
+        color: #fff;
+      }
+      p {
+        font-size: 1.8rem;
+        color: #fff;
+      }
+    }
+
+    &__rectangles {
+      display: inline-block;
+      transform: rotate(-45deg);
+      top: 0;
+      left: 30%;
+
+      &-rotatereverse {
+        transform: rotate(45deg);
+      }
+
+      &-box {
+        width: 140px;
+        height: 140px;
+        color: #fff;
+        border: 2px solid #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.5rem;
+
+        &:hover {
+          background-color: $bluemain-color;
+          border: 2px solid $bluemain-color;
+          cursor: pointer;
+        }
+      }
+
+      &-box1 {
+      }
+    }
+  }
+
+  .releases {
+    font-family: optima;
+    margin-bottom: 4rem;
+
+    &__titles {
+      h5 {
+        color: $bluemain-color;
+        font-size: 2.2rem;
+      }
+      p {
+        color: $bluemain-color;
+        font-size: 1.3rem;
+      }
+    }
+
+    .render-cards .card {
+        height: 24rem;
+      .card-body {
+        h5:nth-of-type(1) {
+          font-size: 2.5rem;
+        }
+        h5:nth-of-type(2) {
+          font-size: 2rem;
+        }
+        .card-text {
+          margin-top: 1rem;
+        }
+      }
+
+      .readmore-btn {
+        border: 1px solid #fff;
+        padding: 0.7rem 1rem;
+        background: #a7a9ac;
+      }
+
+      .card-text {
+        height: 125px;
+      }
+
+      &:hover {
+        background: #7cc242 !important;
+        cursor: pointer;
+
+        .readmore-btn {
+          background: transparent;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background-color: #dadada;
+
+  h3 {
+    font-size: 1.2rem;
+    color: #4a4a4a;
+    font-family: optima;
+  }
+
+  a {
+    font-size: 0.9rem;
+    color: #4a4a4a;
+    display: block;
+
+    &:hover {
+      text-decoration: none;
+      color: #4a4a4a;
+      opacity: 0.8;
+    }
+  }
+}
+
+.copywrite {
+  background-color: #248e92;
+
+  .list-inline-item:not(:last-child) {
+    border-right: 1px solid #fff;
+    padding-right: 0.5rem;
+  }
+}
+
+
+//slick slider
+
+.slick-prev,
+.slick-next {
+  background-color: grey;
+}
+
+.slide {
+  position: relative;
+}
+
+.slick-caption {
+  position: absolute;
+  top: 28%;
+  left: 1%;
+}
+
+.slick-prevbtn {position: absolute;top: 50%;left: -5rem; cursor: pointer;}
+.slick-nextvbtn {position: absolute; top: 50%;right: -3rem; cursor: pointer;}

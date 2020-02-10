@@ -1,0 +1,50 @@
+//bootstrap overrides
+
+.navbar-light .navbar-nav .nav-link {
+    color: #008795 !important;
+    font-family: optima;
+    font-size: 1.2rem;
+  }
+  
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .carousel-caption {
+    bottom: 5rem;
+  }
+  
+  .bg-blue {
+    background-color: #61aeb9;
+    color: #fff;
+  }
+  
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    width: 80px;
+    height: 100px;
+  }
+  
+  .carousel-control-prev-icon {
+    background-image: url(../img/nextarrow.png);
+    transform: rotate(180deg);
+  }
+  
+  .carousel-control-next-icon {
+    background-image: url(../img/nextarrow.png);
+  }
+  
+  .card {
+    border-radius: unset;
+  }
+  
+  .card-deck .card {
+    margin-right: unset;
+    margin-left: unset;
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+  }

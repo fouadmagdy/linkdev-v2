@@ -1,0 +1,39 @@
+
+// responsive
+
+@media (max-width: 768px) {
+    .main__header-logo img {
+      width: 100px;
+    }
+  
+    main .investments {
+      height: 100%;
+    }
+  
+    main .investments__rectangles {
+      display: block;
+      transform: unset;
+    }
+    main .investments__rectangles-box {
+      margin: 6rem auto;
+      transform: rotate(-45deg);
+    }
+  
+    main .releases .render-cards .card .card-text {
+      height: unset;
+    }
+  
+    .carousel-item img {
+      height: 230px;
+    }
+  
+    main .releases{margin-bottom: unset;}
+    header .introduction__carousel-caption--span{font-size: 1.5rem;}
+    header .introduction__carousel-caption--span-2{font-size: 1.5rem;}
+    header .introduction__carousel--h2{font-size: 1.3rem;}
+    .slick-prevbtn{width: 25px;left: -2rem;}
+    .slick-nextvbtn{right: -2rem;width: 25px}
+  
+  
+    .carousel-control-next-icon, .carousel-control-prev-icon{width: 30px; height: 50px;}
+  }

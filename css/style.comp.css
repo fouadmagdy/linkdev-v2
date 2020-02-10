@@ -1,0 +1,295 @@
+@font-face {
+  font-family: "optima";
+  src: url("../font/unicode.optima.ttf"); }
+
+@media only screen and (max-width: 68.75em) {
+  html {
+    font-size: 75%; } }
+
+.investments {
+  background: url(../img/helped.png) no-repeat center center;
+  background-size: cover; }
+
+nav {
+  background-color: #f2f0f0 !important; }
+
+header .main__header-auth-loginsbtns a:first-of-type {
+  border-right: 1px solid;
+  padding-right: 0.5rem;
+  color: #008795;
+  text-decoration: none; }
+
+header .main__header-auth-loginsbtns a:last-child {
+  padding-left: 0.5rem;
+  color: #008795;
+  text-decoration: none; }
+
+header .main__header-auth-langbtns a:nth-of-type(1) {
+  padding: 0.2rem 0.3rem;
+  background-color: #008795;
+  color: #fff;
+  border-radius: 50%; }
+
+header .main__header-auth-langbtns a:nth-of-type(2) {
+  border-right: 1px solid #8d8d8d;
+  padding-right: 0.5rem;
+  color: #008795; }
+
+header .main__header-auth-langbtns a:nth-of-type(3) {
+  padding-left: 0.5rem;
+  font-size: 1.5rem;
+  color: #008795; }
+
+header .main__header-auth-langbtns a:nth-of-type(4) {
+  color: #008795; }
+
+header .introduction .carousel-item button:first-of-type {
+  background: transparent !important;
+  border: 1px solid #fff; }
+
+header .introduction .carousel-item button:last-of-type {
+  background: #8dc043;
+  border: 1px solid #8dc043; }
+
+header .introduction__carousel--h2 {
+  font-size: 1.9rem; }
+
+header .introduction__carousel-caption--h2 {
+  font-size: 1.6rem;
+  font-family: optima; }
+
+header .introduction__carousel-caption--span {
+  color: #c2f83f;
+  font-size: 2.5rem; }
+
+header .introduction__carousel-caption--span-2 {
+  font-size: 2.5rem; }
+
+main .helped {
+  font-family: optima; }
+  main .helped__title h3 {
+    color: #008795;
+    font-size: 2.2rem; }
+  main .helped__title p {
+    color: #61aeb9;
+    font-size: 1.3rem; }
+  main .helped-carusal .slick-caption {
+    color: #fff; }
+    main .helped-carusal .slick-caption p:nth-of-type(1) {
+      font-size: 3rem;
+      font-weight: bold; }
+    main .helped-carusal .slick-caption p:nth-of-type(2) {
+      font-size: 1.5rem; }
+    main .helped-carusal .slick-caption p:nth-of-type(3) {
+      font-size: 1.2rem; }
+
+main .investments {
+  background: url(../img/investments.png) no-repeat center center;
+  background-size: cover;
+  height: 90vh;
+  font-family: optima; }
+  main .investments__title h3 {
+    font-size: 2.5rem;
+    color: #fff; }
+  main .investments__title p {
+    font-size: 1.8rem;
+    color: #fff; }
+  main .investments__rectangles {
+    display: inline-block;
+    transform: rotate(-45deg);
+    top: 0;
+    left: 30%; }
+    main .investments__rectangles-rotatereverse {
+      transform: rotate(45deg); }
+    main .investments__rectangles-box {
+      width: 140px;
+      height: 140px;
+      color: #fff;
+      border: 2px solid #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0.5rem; }
+      main .investments__rectangles-box:hover {
+        background-color: #008795;
+        border: 2px solid #008795;
+        cursor: pointer; }
+
+main .releases {
+  font-family: optima;
+  margin-bottom: 4rem; }
+  main .releases__titles h5 {
+    color: #008795;
+    font-size: 2.2rem; }
+  main .releases__titles p {
+    color: #008795;
+    font-size: 1.3rem; }
+  main .releases .render-cards .card {
+    height: 24rem; }
+    main .releases .render-cards .card .card-body h5:nth-of-type(1) {
+      font-size: 2.5rem; }
+    main .releases .render-cards .card .card-body h5:nth-of-type(2) {
+      font-size: 2rem; }
+    main .releases .render-cards .card .card-body .card-text {
+      margin-top: 1rem; }
+    main .releases .render-cards .card .readmore-btn {
+      border: 1px solid #fff;
+      padding: 0.7rem 1rem;
+      background: #a7a9ac; }
+    main .releases .render-cards .card .card-text {
+      height: 125px; }
+    main .releases .render-cards .card:hover {
+      background: #7cc242 !important;
+      cursor: pointer; }
+      main .releases .render-cards .card:hover .readmore-btn {
+        background: transparent; }
+
+footer {
+  background-color: #dadada; }
+  footer h3 {
+    font-size: 1.2rem;
+    color: #4a4a4a;
+    font-family: optima; }
+  footer a {
+    font-size: 0.9rem;
+    color: #4a4a4a;
+    display: block; }
+    footer a:hover {
+      text-decoration: none;
+      color: #4a4a4a;
+      opacity: 0.8; }
+
+.copywrite {
+  background-color: #248e92; }
+  .copywrite .list-inline-item:not(:last-child) {
+    border-right: 1px solid #fff;
+    padding-right: 0.5rem; }
+
+.slick-prev,
+.slick-next {
+  background-color: grey; }
+
+.slide {
+  position: relative; }
+
+.slick-caption {
+  position: absolute;
+  top: 28%;
+  left: 1%; }
+
+.slick-prevbtn {
+  position: absolute;
+  top: 50%;
+  left: -5rem;
+  cursor: pointer; }
+
+.slick-nextvbtn {
+  position: absolute;
+  top: 50%;
+  right: -3rem;
+  cursor: pointer; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #008795 !important;
+  font-family: optima;
+  font-size: 1.2rem; }
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 100px;
+  height: 100px; }
+
+.carousel-caption {
+  bottom: 5rem; }
+
+.bg-blue {
+  background-color: #61aeb9;
+  color: #fff; }
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 80px;
+  height: 100px; }
+
+.carousel-control-prev-icon {
+  background-image: url(../img/nextarrow.png);
+  transform: rotate(180deg); }
+
+.carousel-control-next-icon {
+  background-image: url(../img/nextarrow.png); }
+
+.card {
+  border-radius: unset; }
+
+.card-deck .card {
+  margin-right: unset;
+  margin-left: unset; }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1.5rem; }
+
+.icon-scroll,
+.icon-scroll:before {
+  position: absolute;
+  left: 50%;
+  cursor: pointer; }
+
+.icon-scroll {
+  width: 30px;
+  height: 50px;
+  margin-left: -20px;
+  bottom: -4rem;
+  border: 2px solid #fff;
+  border-radius: 25px; }
+
+.icon-scroll:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll; }
+
+@keyframes scroll {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    transform: translateY(26px); } }
+
+@media (max-width: 768px) {
+  .main__header-logo img {
+    width: 100px; }
+  main .investments {
+    height: 100%; }
+  main .investments__rectangles {
+    display: block;
+    transform: unset; }
+  main .investments__rectangles-box {
+    margin: 6rem auto;
+    transform: rotate(-45deg); }
+  main .releases .render-cards .card .card-text {
+    height: unset; }
+  .carousel-item img {
+    height: 230px; }
+  main .releases {
+    margin-bottom: unset; }
+  header .introduction__carousel-caption--span {
+    font-size: 1.5rem; }
+  header .introduction__carousel-caption--span-2 {
+    font-size: 1.5rem; }
+  header .introduction__carousel--h2 {
+    font-size: 1.3rem; }
+  .slick-prevbtn {
+    width: 25px;
+    left: -2rem; }
+  .slick-nextvbtn {
+    right: -2rem;
+    width: 25px; }
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 30px;
+    height: 50px; } }
